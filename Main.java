@@ -275,7 +275,7 @@ public class Main {
         try {
             //validate user input is integer
             discount = scanner.nextInt();
-        } catch (Exception e) {
+        } catch (InputMismatchException e) {
             //catch error while user input is not integer
             System.out.println("Invalid input, please input number only");
             return;
